@@ -12,5 +12,3 @@ Implement an `EventManager` class with the following capabilities:
 - **Listener deregistration:** Method `deregisterListener(EventListener listener)` to remove an existing listener.
 - **Event notification:** Method `notifyEvent(Event event)` to asynchronously notify all registered listeners of an event.
 - **Shutdown mechanism:** Method `shutdown()` to properly close any resources if required.
-
-P.S. If your solution does not pass tests locally because of `Not all events were processed in time`, try to run them in GitHub. It may be related to your PC configuration (for example not so powerful CPU as expected).
